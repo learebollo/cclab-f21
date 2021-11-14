@@ -1,0 +1,17 @@
+h2{
+  color: red;
+  font-size: 30px;
+}
+p{
+  color: pink;
+  font-family: sans-sarif;
+}
+h1{
+  font-size: 40px;
+}
+.heading-a{
+  color: blue;
+}
+#very-special-element{
+  font-family: cursive;
+}
