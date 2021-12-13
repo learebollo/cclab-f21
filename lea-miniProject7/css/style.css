@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width:100%
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+  font-style: normal;
+}
+
+h1{
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+
+  text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+div{
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  margin-left: 20px;
+  margin-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -35%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#myContainer {
+  position: absolute;
+}
+
+.button1, .button2{
+  background-color: black;
+  color: white;
+
+  font-style: normal;
+}
